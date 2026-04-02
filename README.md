@@ -1,4 +1,4 @@
-![Global Breast Cancer Analysis Banner](01-CoverPage.png)
+![Global Breast Cancer Analysis Banner](Images/01-CoverPage.png)
 
 # 🌍 Global Breast Cancer Analysis
 ## Overview
@@ -39,19 +39,19 @@ This analysis was designed to:
 
 ### Sample Dashboard Screenshots
 **Global Breast Cancer by Country Overview Dashboard**
-![Incidence vs Mortality](06-DashboardOverview.png)
+![Incidence vs Mortality](Images/06-DashboardOverview.png)
 
 **Breast Cancer by Country II**  
-![Screening Coverage vs Survival](08-CancerByCountry.png)
+![Screening Coverage vs Survival](Images/08-CancerByCountry.png)
 
 **Survival Outcomes by Stage**  
-![Survival Outcomes](10-CancerSurvivalOutcomes.png)
+![Survival Outcomes](Images/10-CancerSurvivalOutcomes.png)
 
 **Breast Cancer Survival Indicators**  
-![Cancer Typical Treatment Across Income Region](11-CancerSurvivalIndicators.png)
+![Cancer Typical Treatment Across Income Region](Images/11-CancerSurvivalIndicators.png)
 
 **Risk Factors Contribution**  
-![Risk Factors](13-RiskFactors.png)
+![Risk Factors](Images/13-RiskFactors.png)
 
 ---
 
