@@ -1,93 +1,99 @@
-![Telecom Network Performance Report Banner](Images/01-CoverPage.png)
+![Global Breast Cancer Analysis Banner](Images/01-CoverPage.png)
 
-# 📡 Telecom Network Performance Report
-Dec 2025 - Jan 2026
-## 📖 Overview
-This project showcases a Telecom Network Performance Dashboard designed to monitor and analyze voice and data KPIs across regions, sites, and cells. It provides end-to-end visibility into network availability, accessibility, retainability, mobility, and capacity—enabling proactive identification of congestion, quality degradation, and optimization opportunities.
+# 🌍 Global Breast Cancer Analysis
+## Overview
+This project investigates the **global burden, outcomes, and risk factors** of breast cancer using datasets on incidence by country, survival outcomes by stage, and risk factor distribution. The analysis highlights disparities in detection, treatment, and survival across income regions, aiming to provide actionable insights for **public health leaders, cancer researchers, and policymakers**.
 
-⚠️ Note: To protect sensitive company data, the dataset used here is simulated. It mirrors the structure and KPI logic of the real project, ensuring confidentiality while demonstrating technical and analytical skills.
+The goal is to transform raw epidemiological data into clear evidence that supports **equitable cancer care strategies** worldwide.
 
 ---
 
 ## 🔍 Problem Statement
-Telecom operators face challenges in maintaining service quality and capacity as demand for data and voice services grows. Key issues include:
-•	Declining accessibility in certain regions.
-•	Congestion risks due to high traffic channel utilization.
-•	Coverage gaps and handover inefficiencies leading to dropped calls.
-•	Rising data traffic requiring proactive capacity planning.
+Breast cancer is the most common cancer among women globally, yet outcomes remain highly unequal:
+- High-income countries detect more cases but achieve far higher survival rates.
+- Low- and lower-middle-income regions detect fewer cases but face disproportionately high fatality rates.
+
+These disparities are driven by limited screening, delayed diagnosis, restricted access to modern treatments, and resource constraints. Without targeted interventions, inequalities will persist and the global burden will continue to rise.
 
 ---
 
 ## 🎯 Objectives
-This project was designed to:
-1.	Build a scalable telecom data model covering regions, sites, and cells.
-2.	Implement industry-standard KPIs (Cell Availability, CSSR, DCR, HOSR, TCH Utilization, SDCCH Blocking).
-3.	Translate complex KPI definitions into efficient DAX measures for accurate reporting.
-4.	Create interactive dashboards and paginated reports for executive stakeholders.
-5.	Enable root-cause analysis and highlight congestion hotspots with conditional formatting.
+This analysis was designed to:
+1. Compare global breast cancer incidence and mortality patterns.
+2. Examine survival outcomes across income regions and cancer stages.
+3. Evaluate disparities in fatality rates across income groups.
+4. Assess early-stage detection patterns and screening effectiveness.
+5. Analyze treatment patterns and equity across regions.
+6. Explore the distribution and impact of risk factors worldwide.
 
 ---
 
 ## 📈 Dashboard Highlights
-•	Cell Availability & Accessibility: Identify underperforming sites.
-•	Congestion Monitoring: Detect TCH utilization exceeding safe thresholds.
-•	Drop Call Analysis: Highlight cells with high DCR due to coverage or interference.
-•	Traffic Trends: Reveal increasing data demand to support capacity planning.
+- **Global Diagnoses (2022):** 2M cases  
+- **Global Deaths (2022):** 535K  
+- **Fatality Rates by Income Region:**  
+  - High-Income: 12.5%  
+  - Upper-Middle: 15.9%  
+  - Lower-Middle: 31.5%  
+  - Low-Income: 40.0%  
 
 ### Sample Dashboard Screenshots
-**Network Accessibility & Performance Insights**
-![Network Stability, Service Accessibility, Data Usage, and RAB Index](Images/06-DashboardOverview.png)
+**Global Breast Cancer by Country Overview Dashboard**
+![Incidence vs Mortality](Images/06-DashboardOverview.png)
 
-**Voice Quality and Call Experience**  
-![Drop Call & Handover Performance](Images/08-CancerByCountry.png)
+**Breast Cancer by Country II**  
+![Screening Coverage vs Survival](Images/08-CancerByCountry.png)
 
-**Capacity and Congestion**  
-![Overloaded Cells and Congestion Hotspots](Images/10-CancerSurvivalOutcomes.png)
+**Survival Outcomes by Stage**  
+![Survival Outcomes](Images/10-CancerSurvivalOutcomes.png)
 
-**Data Traffic Analysis**  
-![GPRS & Cell Availability, and Traffice Cells Needing Capacity Expansion](Images/11-CancerSurvivalIndicators.png)
+**Breast Cancer Survival Indicators**  
+![Cancer Typical Treatment Across Income Region](Images/11-CancerSurvivalIndicators.png)
+
+**Risk Factors Contribution**  
+![Risk Factors](Images/13-RiskFactors.png)
 
 ---
 
 ## 🔑 Key Insights
-•	Regions with CSSR below 97% show declining accessibility.
-•	Sites with TCH utilization >80% are at risk of congestion.
-•	High DCR values point to coverage gaps and mobility inefficiencies.
-•	Data traffic demand is steadily increasing, requiring proactive investment.
+- **Global Paradox:** Wealthier nations detect more cancers but save more lives; poorer nations detect fewer cancers but lose more lives.  
+- **Screening Impact:** Countries with national screening programs detect 72% of cases at early stages, compared to 28% without.  
+- **Stage Survival:** Stage 0 has a 10-year survival of 85%, while Stage IV drops to just 6%.  
+- **Treatment Equity:** High-income regions provide multimodal treatments; low-income regions often rely on delayed surgery, chemotherapy, or palliative care.  
+- **Risk Factors:** Age 50+ accounts for ~30% of cases; BRCA mutations and radiation exposure carry the highest relative risk, while lifestyle factors (obesity, inactivity, alcohol) contribute ~5–10% each.
 
 ---
 
 ## 🛠 Tools & Technologies
-•	**Microsoft Excel** → Data preparation and KPI calculations
-•	**Power BI** → Interactive dashboards and paginated reports
-•	**Paginated Report** → Executive summary of KPIs and recommendations.
-•	**DAX** → KPI definitions and performance measures
-•	**Data Modeling** → Structured telecom hierarchy (regions → sites → cells)
-•	**Telecom Analytics** → Industry-standard KPI monitoring
+- **Power BI** → Data modeling and visualization  
+- **Data Analysis Techniques** → Survival analysis, incidence vs mortality comparisons  
+- **Visualization Methods** → Scatter plots, bar charts, pie charts, dashboards  
 
 ---
 
 ## 📌 Recommendations
-1.	Optimize sites with CSSR <97% and elevated SDCCH blocking.
-2.	Expand capacity or offload traffic where TCH utilization >80%.
-3.	Investigate cells with persistently high drop call rates.
-4.	Continuously monitor data traffic trends to guide network planning.
+1. Expand national mammography programs in low- and middle-income regions.  
+2. Invest in treatment infrastructure (radiotherapy, surgical centers, oncology units).  
+3. Increase public awareness and education on early detection.  
+4. Address modifiable lifestyle risks (obesity, inactivity, alcohol use).  
+5. Provide financial and global support for low-resource regions.  
+6. Strengthen cancer registry accuracy and monitoring systems.  
+7. Promote global equity in cancer care through international collaboration.  
 
 ---
 
 ## ✅ Conclusion
-This project demonstrates how telecom KPIs can be transformed into actionable insights through data modeling, DAX measures, and interactive dashboards. By simulating real-world datasets, it highlights the importance of proactive monitoring and optimization in ensuring network quality and customer satisfaction.
+Breast cancer outcomes should not depend on geography. This project demonstrates that disparities are driven not by biology but by **access to screening and treatment**. Strengthening early detection, expanding treatment infrastructure, and addressing lifestyle risks can significantly reduce the global burden and ensure survival is determined by care, not income region.
 
 ---
 
 ## 📊 Project Deliverables
-- **Power BI Dashboard**: Interactive telecom performance dashboard. 
-  👉 [View the Live Dashboard and Interact with it](https://app.powerbi.com/view?r=eyJrIjoiZTc5YmZkMzYtMWNiMi00MGQ2LWJmZjctODcxMTNiM2U3OWZmIiwidCI6IjAyMDk2OWQ5LTgyNzMtNGVjOC05Y2YyLTMzYTU1NWM1YmFhMiJ9)
+- **Power BI Dashboard**: Interactive dashboard analyzing global breast cancer incidence, survival outcomes, and risk factors.  
+  👉 [View the Live Dashboard and Interact with it](https://app.powerbi.com/view?r=eyJrIjoiMzVlMzhlYjktZDY0OS00NWZhLTg1YzUtNGVmODVlODMwNThlIiwidCI6IjAyMDk2OWQ5LTgyNzMtNGVjOC05Y2YyLTMzYTU1NWM1YmFhMiJ9)
 
 ---
 
 ## 👤 Author
-**Light Amadi** 
-Telecom Network Performance Project 🌐 [www.linkedin.com/in/light-a-942628360]
+**Light Amadi**  
 Global Breast Cancer Analysis Project  
 🌐 [www.linkedin.com/in/light-a-942628360]
