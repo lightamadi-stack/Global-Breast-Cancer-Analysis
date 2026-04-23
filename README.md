@@ -129,4 +129,4 @@ Breast cancer outcomes should not depend on geography. This project demonstrates
 ## 👤 Author
 **Light Amadi**  
 Global Breast Cancer Analysis Project  
-🌐 [www.linkedin.com/in/light-a-942628360]
+🌐 [www.linkedin.com/in/light-amadi-942628360]
